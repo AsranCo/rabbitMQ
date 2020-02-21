@@ -1,14 +1,18 @@
 package ir.marej.exchangeFanoutnoMissing;
 
-import com.rabbitmq.client.Channel;
-import com.rabbitmq.client.Connection;
-import com.rabbitmq.client.ConnectionFactory;
-import com.rabbitmq.client.DeliverCallback;
+import com.rabbitmq.client.*;
+
+import java.io.IOException;
 
 public class ReceiveLogs {
-    private static final String EXCHANGE_NAME = "logs-fanout";
+    public static String EXCHANGE_NAME = "fanout_logs";
+    public static String QUEUE_NAME_1 = "fanout-queue-1";
+    public static String QUEUE_NAME_2 = "fanout-queue-2";
+    public static String QUEUE_NAME_3 = "fanout-queue-3";
+    public static String ROUTING_KEY = "";
 
     public static void main(String[] argv) throws Exception {
+
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost("test");
         factory.setUsername("admin");
@@ -16,18 +20,52 @@ public class ReceiveLogs {
         Connection connection = factory.newConnection();
         Channel channel = connection.createChannel();
 
-        channel.exchangeDeclare(EXCHANGE_NAME, "fanout");
-        String queueName = channel.queueDeclare().getQueue();
-        channel.queueBind(queueName, EXCHANGE_NAME, "");
 
-        System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
+        Consumer consumer1 = new DefaultConsumer(channel) {
 
-        DeliverCallback deliverCallback = (consumerTag, delivery) -> {
-            String message = new String(delivery.getBody(), "UTF-8");
-            System.out.println(" [x] Received '" + message + "'");
+            @Override
+
+            public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
+
+                String message = new String(body, "UTF-8");
+
+                System.out.println(" Message Received Queue 1 '" + message + "'");
+
+            }
+
         };
-        channel.basicConsume(queueName, true, deliverCallback, consumerTag -> {
-        });
+
+        channel.basicConsume(QUEUE_NAME_1, true, consumer1);
+
+        Consumer consumer2 = new DefaultConsumer(channel) {
+
+            @Override
+
+            public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
+
+                String message = new String(body, "UTF-8");
+
+                System.out.println(" Message Received Queue 2 '" + message + "'");
+
+            }
+
+        };
+
+        channel.basicConsume(QUEUE_NAME_2, true, consumer2);
+
+        Consumer consumer3 = new DefaultConsumer(channel) {
+
+            @Override
+
+            public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
+
+                String message = new String(body, "UTF-8");
+
+                System.out.println(" Message Received Queue 3 '" + message + "'");
+
+            }
+
+        };
+        channel.basicConsume(QUEUE_NAME_3, true, consumer3);
     }
 }
-
