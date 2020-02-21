@@ -1,18 +1,4 @@
-2020-02-19 14:56:01,698 INFO i.m.o.Producer [main] Start load record on queue
-2020-02-19 15:02:02,376 INFO i.m.o.Producer [main] Start load record on queue
-2020-02-19 15:06:02,137 INFO i.m.o.Producer [main] Start load record on queue
-2020-02-19 15:06:19,160 INFO i.m.o.Producer [main] Start load record on queue
-2020-02-19 15:14:28,583 INFO i.m.o.Producer [main] Start load record on queue
-2020-02-19 15:14:28,591 INFO i.m.o.Producer [main] Published  messages individually in %,d ms%n
-2020-02-19 15:15:37,799 INFO i.m.o.Producer [main] Start load record on queue
-2020-02-19 15:15:37,803 INFO i.m.o.Producer [main] Published  messages individually in %,d ms%n0
-2020-02-19 15:15:51,989 INFO i.m.o.Producer [main] Start load record on queue
-2020-02-19 15:15:57,503 INFO i.m.o.Producer [main] Published  messages individually in %,d ms%n5508
-2020-02-19 15:18:49,008 INFO i.m.o.Producer [main] Start load record on queue
-2020-02-19 15:18:49,012 INFO i.m.o.Producer [main] Published  messages individually in  0 ms
-2020-02-19 15:20:59,037 INFO i.m.o.Producer [main] Start load record on queue
-2020-02-19 15:21:04,361 INFO i.m.o.Producer [main] Published  messages individually in :5318804428000 ms
-2020-02-19 15:22:28,775 INFO i.m.o.Producer [main] Start load record on queue
-2020-02-19 15:22:28,779 INFO i.m.o.Producer [main] Published  messages individually in :0 ms
-2020-02-19 15:22:46,221 INFO i.m.o.Producer [main] Start load record on queue
-2020-02-19 15:22:46,225 INFO i.m.o.Producer [main] Published  messages individually in: 0 ms
+2020-02-21 19:08:33,471 INFO i.m.e.EmitLog [main]  Message Sent 'Hello Fanout Example'
+2020-02-21 19:09:51,177 INFO i.m.e.EmitLog [main]  Message Sent 'Hello Fanout Example'
+2020-02-21 19:12:29,328 INFO i.m.e.EmitLog [main]  Message Sent 'Hello Fanout Example'
+2020-02-21 19:17:25,120 INFO i.m.e.EmitLog [main]  Message Sent 'Hello Fanout Example'

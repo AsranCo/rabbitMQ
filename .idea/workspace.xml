@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12459d04-7d35-461d-9ef8-c67ff981de37" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ReceiveLogsDirect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ReceiveLogsDirect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/stdout" beforeDir="false" afterPath="$PROJECT_DIR$/logs/stdout" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/EmitLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/EmitLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/FanoutExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/FanoutExchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/RabbitMQConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/RabbitMQConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/ReceiveLogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/ReceiveLogs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ir/marej/exchangeDirectniMissing/ReceiveLogsDirect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ir/marej/exchangeDirectniMissing/ReceiveLogsDirect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ir/marej/exchangeDirect/ReceiveLogsDirectE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ir/marej/exchangeDirect/ReceiveLogsDirectE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ir/marej/exchangeDirect/ReceiveLogsDirectI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ir/marej/exchangeDirect/ReceiveLogsDirectI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ir/marej/exchangeFanoutnoMissing/EmitLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ir/marej/exchangeFanoutnoMissing/EmitLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ir/marej/exchangeFanoutnoMissing/ReceiveLogs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ir/marej/exchangeFanoutnoMissing/ReceiveLogs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ir/marej/exchangeRpc/RPCServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ir/marej/exchangeRpc/RPCServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ir/marej/oneQueuemultiConsumer/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ir/marej/oneQueuemultiConsumer/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ir/marej/oneQueuemultiConsumer/ProducerM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ir/marej/oneQueuemultiConsumer/ProducerM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ir/marej/oneQueueoneConsumer/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ir/marej/oneQueueoneConsumer/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ir/marej/oneQueueoneConsumer/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ir/marej/oneQueueoneConsumer/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ir/marej/publisherConfirms/PublisherConfirms.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ir/marej/publisherConfirms/PublisherConfirms.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,105 +30,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/Demo.java">
+        <entry file="file://$PROJECT_DIR$/logs/stdout">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/FanoutExchange.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/RabbitMQConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/EmitLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ReceiveLogsDirect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/RabbitMQConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ExchangeType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/DirectExchange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/ReceiveLogs.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/EmitLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="38" column="63" lean-forward="true" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+            <state relative-caret-position="285">
+              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -146,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ir/marej/sample/EmitLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/marej/sample/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/ir/marej/sample/PublisherConfirms.java" />
@@ -187,16 +136,17 @@
         <option value="$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect/ReceiveLogsDirectI.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/marej/r/exchangeRpc/RPCServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/marej/exchangeRpcN/RPCServer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ir/marej/WorkQueues/NewTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/marej/WorkQueues/Worker.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect/EmitLogDirect.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/RabbitMQConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/EmitLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/ReceiveLogsN.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/ReceiveLogs.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ReceiveLogsDirect.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/FanoutExchange.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/EmitLog.java" />
       </list>
     </option>
   </component>
@@ -215,9 +165,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="8" />
-    <option name="width" value="1600" />
-    <option name="height" value="864" />
+    <option name="x" value="418" />
+    <option name="y" value="60" />
+    <option name="width" value="926" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -277,27 +228,7 @@
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marej" type="462c0819:PsiDirectoryNode" />
-              <item name="exchangeRpc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marej" type="462c0819:PsiDirectoryNode" />
-              <item name="oneQueuemultiConsumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marej" type="462c0819:PsiDirectoryNode" />
-              <item name="publisherConfirms" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,8 +241,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582298351822" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect/EmitLogDirect.java" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582300046074" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Other/logger.log4j2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -328,11 +259,11 @@
       <recent name="ir.marej.oneQueueoneConsumer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/ir/marej" />
       <recent name="$PROJECT_DIR$/src/main/java/ir/marej/r" />
       <recent name="$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanout" />
       <recent name="$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect" />
-      <recent name="$PROJECT_DIR$/src/main/java/ir/marej/noMissing" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -347,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReceiveLogs">
+  <component name="RunManager" selected="Application.EmitLog">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ir.marej.exchangeDirectniMissing.Demo" />
       <module name="tutorial" />
@@ -387,6 +318,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PublisherConfirms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ir.marej.publisherConfirms.PublisherConfirms" />
+      <module name="tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ir.marej.publisherConfirms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReceiveLogs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ir.marej.exchangeFanoutnoMissing.ReceiveLogs" />
       <module name="tutorial" />
@@ -400,80 +344,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReceiveLogsDirectE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ir.marej.exchangeDirect.ReceiveLogsDirectE" />
-      <module name="tutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ir.marej.exchangeDirect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="tutorial" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="tutorial" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.EmitLogDirect" />
-      <item itemvalue="Application.ReceiveLogsDirectE" />
       <item itemvalue="Application.EmitLog" />
       <item itemvalue="Application.ReceiveLogs" />
       <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.PublisherConfirms" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReceiveLogs" />
         <item itemvalue="Application.EmitLog" />
+        <item itemvalue="Application.PublisherConfirms" />
+        <item itemvalue="Application.ReceiveLogs" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.EmitLogDirect" />
-        <item itemvalue="Application.ReceiveLogsDirectE" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +379,8 @@
       <workItem from="1581244479529" duration="24000" />
       <workItem from="1581250356489" duration="418000" />
       <workItem from="1581250825204" duration="24814000" />
-      <workItem from="1581996745296" duration="36451000" />
+      <workItem from="1581996745296" duration="36818000" />
+      <workItem from="1582299293496" duration="589000" />
     </task>
     <task id="LOCAL-00001" summary="tutorial">
       <created>1582281885916</created>
@@ -511,16 +396,23 @@
       <option name="project" value="LOCAL" />
       <updated>1582297030920</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final!">
+      <created>1582298442842</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582298442842</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84468000" />
+    <option name="totallyTimeSpent" value="85424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24737133" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24737133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -529,12 +421,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32985386" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3294979" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33054394" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33054394" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3294979" />
@@ -594,7 +486,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tutorial" />
     <MESSAGE value="fanout exchange" />
-    <option name="LAST_COMMIT_MESSAGE" value="fanout exchange" />
+    <MESSAGE value="Final!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -615,8 +508,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/sample/RPCServer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/sample/README.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -630,62 +521,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/sample/Worker.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/sample/NewTask.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/publisherConfirms/recompile.sh" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeTopic/ReceiveLogsTopic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeTopic/EmitLogTopic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeHeader/EmitLogHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeHeader/ReceiveLogHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect/EmitLogDirect2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeTopic/ReceiveLogsTopic.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeTopic/EmitLogTopic.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeHeader/EmitLogHeader.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeHeader/ReceiveLogHeader.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect/EmitLogDirect2.java" />
     <entry file="jar://$USER_HOME$/Documents/Java/jdk1.8.0_66/src.zip!/java/time/Duration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="132" column="19" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/oneQueueoneConsumer/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/stdout">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -699,75 +543,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanout/ReceiveLogsN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ReceiveLogsDirectInfo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ReceiveLogsDirectError.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/EmitLogDirect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect/ExchangeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect/ReceiveLogsDirectError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect/ReceiveLogsDirectInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="9" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanout/ReceiveLogsE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanout/EmitLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanout/ReceiveLogs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanout/ReceiveLogsI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanout/ReceiveLogsN.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ReceiveLogsDirectInfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ReceiveLogsDirectError.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect/ExchangeType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect/ReceiveLogsDirectError.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect/ReceiveLogsDirectInfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanout/ReceiveLogsE.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanout/EmitLog.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanout/ReceiveLogs.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanout/ReceiveLogsI.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect/ReceiveLogsDirectI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -782,20 +567,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeRpcN/RPCServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeRpcN/RPCClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeRpcN/RPCServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeRpcN/RPCClient.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeRpc/RPCServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -803,34 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/publisherConfirms/PublisherConfirms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeRpc/RPCClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
           <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/WorkQueues/NewTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="48" selection-end-line="41" />
         </state>
       </provider>
     </entry>
@@ -902,9 +651,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/ReceiveLogsN.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ReceiveLogsDirect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/DirectExchange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="90">
           <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -912,37 +679,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ReceiveLogsDirect.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/WorkQueues/NewTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/EmitLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="22" column="48" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/FanoutExchange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/archive-2020-02-15-1.gz">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="99" lean-forward="true" selection-start-line="2" selection-start-column="99" selection-end-line="2" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/ReceiveLogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/publisherConfirms/PublisherConfirms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/oneQueueoneConsumer/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -959,17 +743,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/ReceiveLogsN.java">
+    <entry file="file://$PROJECT_DIR$/logs/stdout">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206">
-          <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/ReceiveLogs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="38" column="63" lean-forward="true" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+        <state relative-caret-position="75">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/EmitLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
