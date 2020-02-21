@@ -33,23 +33,23 @@ public class ReceiveLogsDirect {
                 channel.basicConsume(DirectExchange.SEVERITY_QUEUE_I, true, consumer1);
 
 
-//                Consumer consumer2 = new DefaultConsumer(channel) {
-//
-//                    @Override
-//
-//                    public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
-//
-//                        String message = new String(body, "UTF-8");
-//
-//                        System.out.println(" Message Received Queue 2 '" + message + "'");
-//
-//                    }
-//
-//                };
-//
-//                channel.basicConsume(DirectExchange.SEVERITY_QUEUE_E, true, consumer2);
-//
-//
+                Consumer consumer2 = new DefaultConsumer(channel) {
+
+                    @Override
+
+                    public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
+
+                        String message = new String(body, "UTF-8");
+
+                        System.out.println(" Message Received Queue 2 '" + message + "'");
+
+                    }
+
+                };
+
+                channel.basicConsume(DirectExchange.SEVERITY_QUEUE_E, true, consumer2);
+
+
 
 //                channel.close();
 //
