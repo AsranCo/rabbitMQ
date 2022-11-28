@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12459d04-7d35-461d-9ef8-c67ff981de37" name="Default Changelist" comment="set slf4j">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="12459d04-7d35-461d-9ef8-c67ff981de37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -434,12 +433,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ReceiveLogsDirect.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ir/asran/exchangeDirectniMissing/ReceiveLogsDirect.java</url>
           <line>49</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ReceiveLogsDirect.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ir/asran/exchangeDirectniMissing/ReceiveLogsDirect.java</url>
           <line>32</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
