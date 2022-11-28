@@ -1,8 +1,7 @@
-package ir.marej.exchangeFanoutnoMissing;
+package ir.asran.exchangeFanoutnoMissing;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
-import ir.marej.oneQueueoneConsumer.Consumer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

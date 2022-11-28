@@ -1,4 +1,4 @@
-package ir.marej.exchangeFanoutnoMissing;
+package ir.asran.exchangeFanoutnoMissing;
 
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;

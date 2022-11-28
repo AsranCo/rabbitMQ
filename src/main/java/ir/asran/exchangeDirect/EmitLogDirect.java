@@ -1,4 +1,4 @@
-package ir.marej.exchangeDirect;
+package ir.asran.exchangeDirect;
 
 import com.rabbitmq.client.BuiltinExchangeType;
 import com.rabbitmq.client.Channel;

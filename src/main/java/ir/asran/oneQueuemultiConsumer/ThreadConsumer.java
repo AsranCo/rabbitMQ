@@ -1,4 +1,4 @@
-package ir.marej.oneQueuemultiConsumer;
+package ir.asran.oneQueuemultiConsumer;
 
 
 

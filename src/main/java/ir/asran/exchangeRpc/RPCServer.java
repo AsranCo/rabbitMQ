@@ -1,4 +1,4 @@
-package ir.marej.exchangeRpc;
+package ir.asran.exchangeRpc;
 
 import com.rabbitmq.client.*;
 

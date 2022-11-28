@@ -1,4 +1,4 @@
-package ir.marej.exchangeDirectniMissing;
+package ir.asran.exchangeDirectniMissing;
 
 import com.rabbitmq.client.*;
 

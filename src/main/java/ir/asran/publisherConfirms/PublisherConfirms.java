@@ -1,4 +1,4 @@
-package ir.marej.publisherConfirms;
+package ir.asran.publisherConfirms;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.ConfirmCallback;

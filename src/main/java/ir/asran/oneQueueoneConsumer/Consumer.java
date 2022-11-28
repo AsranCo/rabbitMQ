@@ -1,4 +1,4 @@
-package ir.marej.oneQueueoneConsumer;
+package ir.asran.oneQueueoneConsumer;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;

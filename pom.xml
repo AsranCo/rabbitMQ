@@ -43,7 +43,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>ir.marej.Main</mainClass>
+                            <mainClass>ir.asran.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -78,7 +78,7 @@
                         <index>true</index>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>ir.marej.Main</mainClass>
+                            <mainClass>ir.asran.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

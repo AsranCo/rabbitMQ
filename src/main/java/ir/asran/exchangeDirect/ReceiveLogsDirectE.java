@@ -1,8 +1,8 @@
-package ir.marej.exchangeDirect;
+package ir.asran.exchangeDirect;
 
 import com.rabbitmq.client.*;
 
-public class ReceiveLogsDirectI {
+public class ReceiveLogsDirectE {
 
     private static final String EXCHANGE_NAME = "direct_logs";
 
@@ -18,7 +18,7 @@ public class ReceiveLogsDirectI {
 
 
 
-            channel.queueBind(queueName, EXCHANGE_NAME, "info-key");
+            channel.queueBind(queueName, EXCHANGE_NAME, "error-key");
 
         System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
 

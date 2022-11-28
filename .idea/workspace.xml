@@ -1,87 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="12459d04-7d35-461d-9ef8-c67ff981de37" name="Default Changelist" comment="set slf4j">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/stdout">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/FanoutExchange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeFanoutnoMissing/EmitLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/marej/publisherConfirms/PublisherConfirms.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="51" selection-start-line="51" selection-end-line="81" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -158,6 +88,9 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -166,11 +99,6 @@
         <option name="mavenHome" value="/usr/share/maven" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="418" />
@@ -178,6 +106,7 @@
     <option name="width" value="926" />
     <option name="height" value="1020" />
   </component>
+  <component name="ProjectId" id="2IA2M0VIbBZc71n1icYWPyvrmPt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -246,19 +175,18 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582348119597" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Other/logger.log4j2" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect/EmitLogDirect.java" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ali/IdeaProjects/Filter&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ir.marej.exchangeFanoutnoMissing" />
@@ -274,25 +202,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirect" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.PublisherConfirms">
+  <component name="RunManager" selected="Application.ir.asran.publisherConfirms.PublisherConfirms">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ir.marej.exchangeDirectniMissing.Demo" />
+      <option name="MAIN_CLASS_NAME" value="ir.asran.exchangeDirectniMissing.Demo" />
       <module name="tutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ir.marej.exchangeDirectniMissing.*" />
+          <option name="PATTERN" value="ir.asran.exchangeDirectniMissing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,11 +217,11 @@
       </method>
     </configuration>
     <configuration name="EmitLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ir.marej.exchangeFanoutnoMissing.EmitLog" />
+      <option name="MAIN_CLASS_NAME" value="ir.asran.exchangeFanoutnoMissing.EmitLog" />
       <module name="tutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ir.marej.exchangeFanoutnoMissing.*" />
+          <option name="PATTERN" value="ir.asran.exchangeFanoutnoMissing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,11 +230,11 @@
       </method>
     </configuration>
     <configuration name="EmitLogDirect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ir.marej.exchangeDirect.EmitLogDirect" />
+      <option name="MAIN_CLASS_NAME" value="ir.asran.exchangeDirect.EmitLogDirect" />
       <module name="tutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ir.marej.exchangeDirect.*" />
+          <option name="PATTERN" value="ir.asran.exchangeDirect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,11 +243,11 @@
       </method>
     </configuration>
     <configuration name="PublisherConfirms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ir.marej.publisherConfirms.PublisherConfirms" />
+      <option name="MAIN_CLASS_NAME" value="ir.asran.publisherConfirms.PublisherConfirms" />
       <module name="tutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ir.marej.publisherConfirms.*" />
+          <option name="PATTERN" value="ir.asran.publisherConfirms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,11 +256,11 @@
       </method>
     </configuration>
     <configuration name="ReceiveLogs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ir.marej.exchangeFanoutnoMissing.ReceiveLogs" />
+      <option name="MAIN_CLASS_NAME" value="ir.asran.exchangeFanoutnoMissing.ReceiveLogs" />
       <module name="tutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ir.marej.exchangeFanoutnoMissing.*" />
+          <option name="PATTERN" value="ir.asran.exchangeFanoutnoMissing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,22 +269,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EmitLogDirect" />
-      <item itemvalue="Application.EmitLog" />
-      <item itemvalue="Application.ReceiveLogs" />
-      <item itemvalue="Application.Demo" />
-      <item itemvalue="Application.PublisherConfirms" />
+      <item itemvalue="Application.ir.asran.exchangeDirectniMissing.Demo" />
+      <item itemvalue="Application.ir.asran.exchangeFanoutnoMissing.EmitLog" />
+      <item itemvalue="Application.ir.asran.exchangeDirect.EmitLogDirect" />
+      <item itemvalue="Application.ir.asran.publisherConfirms.PublisherConfirms" />
+      <item itemvalue="Application.ir.asran.exchangeFanoutnoMissing.ReceiveLogs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PublisherConfirms" />
-        <item itemvalue="Application.EmitLog" />
-        <item itemvalue="Application.ReceiveLogs" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.EmitLogDirect" />
+        <item itemvalue="Application.ir.asran.publisherConfirms.PublisherConfirms" />
+        <item itemvalue="Application.ir.asran.exchangeFanoutnoMissing.EmitLog" />
+        <item itemvalue="Application.ir.asran.exchangeFanoutnoMissing.ReceiveLogs" />
+        <item itemvalue="Application.ir.asran.exchangeDirectniMissing.Demo" />
+        <item itemvalue="Application.ir.asran.exchangeDirect.EmitLogDirect" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -389,6 +306,7 @@
       <workItem from="1581250825204" duration="24814000" />
       <workItem from="1581996745296" duration="36818000" />
       <workItem from="1582299293496" duration="2668000" />
+      <workItem from="1669610020418" duration="372000" />
     </task>
     <task id="LOCAL-00001" summary="tutorial">
       <created>1582281885916</created>
@@ -418,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582300080328</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="set slf4j">
+      <created>1669610291731</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669610291731</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -496,7 +421,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tutorial" />
@@ -511,13 +436,11 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ReceiveLogsDirect.java</url>
           <line>49</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ir/marej/exchangeDirectniMissing/ReceiveLogsDirect.java</url>
           <line>32</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
