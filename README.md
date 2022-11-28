@@ -1,137 +1,45 @@
-# Java code for RabbitMQ tutorials
+<div class="header reader-header reader-show-element">
+<h1 class="reader-title" dir="ltr"><strong>RabbitMQ Exchange Types , Bindings, Routing Keys | RabbitMQ Tutorial</strong></h1>
 
-Here you can find the Java code examples from [RabbitMQ
-tutorials](https://www.rabbitmq.com/getstarted.html).
+<div class="credits reader-credits" dir="ltr">&nbsp;</div>
+</div>
 
-To successfully use the examples you will need a RabbitMQ node running locally.
+<hr />
+<div class="content">
+<div class="moz-reader-content line-height4 reader-show-element">
+<div class="page" id="readability-page-1">
+<div>
+<p dir="ltr"><strong><span>Exchanges are message routing agents, which are defined per virtual host within the rabbitMQ system.&nbsp;When&nbsp;program/application (Known as Producer) connect to RabbitMQ server to publish a message, it first sends the&nbsp;message to an exchange. After&nbsp;receiving a message, exchange&nbsp;routes them to different message queues&nbsp;with help of header attributes, bindings, and routing keys.&nbsp;It should be noted that messages are not published directly to a queue, instead, it is first send to an exchange and then exchange routes them to different message queues.</span></strong></p>
 
-## Requirements
+<p dir="ltr"><strong><span>Binding :- It is a link between a queue and an exchange.</span></strong></p>
 
-You'll need to download the following JAR files
-from Maven Central:
+<p dir="ltr"><strong><span>Routing key :- It is a&nbsp;message attribute&nbsp;that the exchange can looks&nbsp;at, to decide how to route the message to queues. The routing key is like an address<i>&nbsp;</i>for the message.</span></strong></p>
 
- * [RabbitMQ Java Client](https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.6.0//amqp-client-5.6.0.jar)
- * [SLF4J API](https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar)
- * [SLF4J Simple](https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar)
+<p dir="ltr"><strong><img alt="" data-rich-file-id="1" src="/system/rich/rich_files/rich_files/000/000/001/original/Exchange_2.png" /></strong></p>
 
-For example, with `wget`:
+<p dir="ltr"><strong><span>Exchanges, connections and queues can be configured with parameters such as durable, temporary, and auto delete&nbsp;during&nbsp;creation.</span></strong></p>
 
-``` shell
-wget https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0.jar
-wget https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
-wget https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar
-```
+<ol dir="ltr">
+	<li><strong><span>Durable Exchange :- It&nbsp;will survive server restarts and will last until they are explicitly deleted.&nbsp;</span></strong></li>
+	<li><strong><span>Temporary Exchanges :-&nbsp;It&nbsp;will&nbsp;exist until RabbitMQ is shutdown.</span></strong></li>
+	<li><strong><span>Auto Deleted Exchanges :- It will exist till&nbsp;the last bound object unbound from the exchange.</span></strong></li>
+</ol>
 
-Copy those files in your working directory, along the tutorials Java files.
+<p dir="ltr"><strong><span>User can create their own exchanges or use the predefined default exchanges, default exchanges are created when the server starts for the first time.</span></strong></p>
 
-To compile you only need the Rabbitmq Java client jar on the classpath.
-To run them you'll need all the dependencies, see examples below.
+<h2 dir="ltr"><strong><span>RabbitMQ Exchange Types :-</span></strong></h2>
 
-You can set an environment variable for the jar files on the classpath e.g.
+<p dir="ltr"><strong><span>RabbitMQ provide four different types of exchange, each differ in the way they route messages to the queues. Brief explanation about each of them are as follows :-</span></strong></p>
 
-```
-export CP=.:amqp-client-5.6.0.jar:slf4j-api-1.7.25.jar:slf4j-simple-1.7.25.jar
-java -cp $CP Send
-```
+<ol dir="ltr">
+	<li><strong><span><span style="color:#c0392b;"><span style="font-size:16px;">Direct Exchange</span></span> :- A direct exchange routes messages to queues based on message routing key.&nbsp;The routing key is a message attribute&nbsp;in the message header added by the producer. The default exchange for direct exchange is &ldquo;amq.direct&ldquo;. For detailed explanation and code example, you can visit <span><a href="https://codedestine.com/rabbitmq-direct-exchange/" target="_blank">RabbitMQ &ndash; Direct Exchange</a></span>.</span></strong></li>
+	<li><strong><span><span style="color:#d35400;"><span style="font-size:16px;">Topic Exchange</span></span> :-&nbsp;A topic&nbsp;exchange route messages to queues based on the wildcard match between routing key and routing pattern specified during the binding of the queue. The default exchange for topic&nbsp;exchange is &ldquo;amq.topic&ldquo;.&nbsp;For detailed explanation and code example, you can visit <span><a href="https://codedestine.com/rabbitmq-topic-exchange/" target="_blank">RabbitMQ &ndash; Topic&nbsp;Exchange</a></span>.</span></strong></li>
+	<li><strong><span><span style="color:#d35400;"><span style="font-size:16px;">Fanout Exchange</span></span> :-&nbsp;A fanout exchange copies the message and routes it to all the queues bound to it. The default exchange for fanout&nbsp;exchange is &ldquo;amq.fanout&ldquo;. For detailed explanation and code example, you can visit <span><a href="https://codedestine.com/rabbitmq-fanout-exchange/" target="_blank">RabbitMQ &ndash; Fanout&nbsp;Exchange</a></span>.</span></strong></li>
+	<li><strong><span><span style="color:#d35400;"><span style="font-size:16px;">RPC Exchange</span></span> :</span></strong></li>
+</ol>
 
-On Windows, use a semicolon instead of a colon to separate items in the classpath:
-
-```
-set CP=.;amqp-client-5.6.0.jar;slf4j-api-1.7.25.jar;slf4j-simple-1.7.25.jar
-java -cp %CP% Send
-```
-
-## Code
-
-#### [Tutorial one: "Hello World!"](https://www.rabbitmq.com/tutorials/tutorial-one-java.html):
-
-```
-javac -cp amqp-client-5.6.0.jar Send.java Recv.java
-
-# terminal tab 1
-java -cp .:amqp-client-5.6.0.jar:slf4j-api-1.7.25.jar:slf4j-simple-1.7.25.jar Recv
-
-# terminal tab 2
-java -cp .:amqp-client-5.6.0.jar:slf4j-api-1.7.25.jar:slf4j-simple-1.7.25.jar Send
-```
-
-#### [Tutorial two: Work Queues](https://www.rabbitmq.com/tutorials/tutorial-two-java.html):
-
-```
-javac -cp amqp-client-5.6.0.jar NewTask.java Worker.java
-
-# terminal tab 1
-java -cp $CP NewTask
-
-# terminal tab 2
-java -cp $CP Worker
-```
-
-#### [Tutorial three: Publish/Subscribe](https://www.rabbitmq.com/tutorials/tutorial-three-java.html)
-
-``` shell
-javac -cp amqp-client-5.6.0.jar EmitLog.java ReceiveLogs.java
-
-# terminal tab 1
-java -cp $CP ReceiveLogs
-
-# terminal tab 2
-java -cp $CP EmitLog
-```
-
-#### [Tutorial four: Routing](https://www.rabbitmq.com/tutorials/tutorial-four-java.html)
-
-```
-javac -cp $CP ReceiveLogsDirect.java EmitLogDirect.java
-
-# terminal tab 1
-java -cp $CP ReceiveLogsDirect warning error
-
-# terminal tab 2
-java -cp $CP ReceiveLogsDirect info warning error
-
-# terminal tab 3
-java -cp $CP EmitLogDirect error "Run. Run. Or it will explode."
-```
-
-#### [Tutorial five: Topics](https://www.rabbitmq.com/tutorials/tutorial-five-java.html)
-
-```
-# To compile:
-javac -cp $CP ReceiveLogsTopic.java EmitLogTopic.java
-
-# To receive all the logs:
-java -cp $CP ReceiveLogsTopic "#"
-
-# To receive all logs from the facility "kern":
-java -cp $CP ReceiveLogsTopic "kern.*"
-
-# Or if you want to hear only about "critical" logs:
-java -cp $CP ReceiveLogsTopic "*.critical"
-
-# You can create multiple bindings:
-java -cp $CP ReceiveLogsTopic "kern.*" "*.critical"
-
-# And to emit a log with a routing key "kern.critical" type:
-java -cp $CP EmitLogTopic "kern.critical" "A critical kernel error"
-```
-
-#### [Tutorial six: RPC](https://www.rabbitmq.com/tutorials/tutorial-six-java.html)
-
-```
-# Compile and set up the classpath as usual (see tutorial one):
-javac -cp $CP RPCClient.java RPCServer.java
-
-# Our RPC service is now ready. We can start the server:
-java -cp $CP RPCServer
-
-# To request a fibonacci number run the client:
-java -cp $CP RPCClient
-```
-
-#### [Tutorial seven: Publisher Confirms](https://www.rabbitmq.com/tutorials/tutorial-seven-java.html)
-
-```
-javac -cp $CP PublisherConfirms.java
-java -cp $CP PublisherConfirms
-```
+<p dir="ltr"><strong><span>That&rsquo;s all for RabbitMQ Exchange Types, Bindings and Routing Keys, If you liked it, please share your thoughts in comments section and share it with others too.</span></strong></p>
+</div>
+</div>
+</div>
+</div>
