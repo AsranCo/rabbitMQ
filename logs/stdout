@@ -1,4 +1,0 @@
-2020-02-21 19:08:33,471 INFO i.m.e.EmitLog [main]  Message Sent 'Hello Fanout Example'
-2020-02-21 19:09:51,177 INFO i.m.e.EmitLog [main]  Message Sent 'Hello Fanout Example'
-2020-02-21 19:12:29,328 INFO i.m.e.EmitLog [main]  Message Sent 'Hello Fanout Example'
-2020-02-21 19:17:25,120 INFO i.m.e.EmitLog [main]  Message Sent 'Hello Fanout Example'
